@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<StackPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <StackPane>
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="62.0" fitWidth="73.0" layoutX="6.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../heartLogo.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="137.0" layoutY="340.0" mnemonicParsing="false" text="Add Patient" />
+                        <Button layoutX="376.0" layoutY="340.0" mnemonicParsing="false" text="Return" />
+                        <Label layoutX="193.0" layoutY="23.0" text="New Patient Entry">
+                           <font>
+                              <Font name="Palatino" size="26.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="98.0" layoutY="111.0" text="First name">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="97.0" layoutY="141.0" text="Last Name">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="83.0" layoutY="171.0" text="Date of Birth">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="201.0" text="Social Security Number">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="231.0" text="Primary Care Physician">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField layoutX="182.0" layoutY="107.0" />
+                        <TextField layoutX="182.0" layoutY="137.0" />
+                        <TextField layoutX="182.0" layoutY="167.0" />
+                        <TextField layoutX="182.0" layoutY="198.0" />
+                        <TextField layoutX="182.0" layoutY="228.0" />
+                        <Label layoutX="71.0" layoutY="261.0" text="Street Address">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="69.0" layoutY="291.0" text="Phone Number">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField layoutX="182.0" layoutY="258.0" />
+                        <TextField layoutX="182.0" layoutY="288.0" />
+                        <RadioButton layoutX="393.0" layoutY="122.0" mnemonicParsing="false" text="Male">
+                           <font>
+                              <Font name="Palatino Linotype" size="13.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="485.0" layoutY="122.0" mnemonicParsing="false" text="Female">
+                           <font>
+                              <Font name="Palatino Linotype" size="13.0" />
+                           </font>
+                        </RadioButton>
+                        <Label layoutX="361.0" layoutY="262.0" text="City">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField layoutX="402.0" layoutY="259.0" />
+                        <Label layoutX="359.0" layoutY="291.0" text="State">
+                           <font>
+                              <Font name="Palatino Linotype" size="14.0" />
+                           </font>
+                        </Label>
+                        <ComboBox layoutX="402.0" layoutY="293.0" prefHeight="8.0" prefWidth="38.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </StackPane>
+         </children>
+      </StackPane>
+   </children>
+</StackPane>
